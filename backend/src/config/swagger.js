@@ -12,8 +12,8 @@ const options = {
       contact: { name: 'EventHub Support' },
     },
     servers: [
-      { url: 'http://localhost:3001/api', description: 'Development server' },
       { url: 'https://api.eventhub.rahulshettyacademy.com/api', description: 'Production server' },
+      { url: 'http://localhost:3001/api', description: 'Development server' },
     ],
     tags: [
       { name: 'Auth',     description: 'Authentication — register, login, and token validation' },
