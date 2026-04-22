@@ -25,3 +25,10 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Playwright test output
+playwright-report/
+test-results/
+
+# Claude Code local settings (project skills are committed, local config is not)
+.claude/settings.local.json
