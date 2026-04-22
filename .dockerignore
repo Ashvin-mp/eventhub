@@ -1,0 +1,23 @@
+# Application source — not needed to run tests
+frontend/
+backend/
+
+# Generated artifacts — created fresh inside the container
+node_modules/
+.next/
+build/
+dist/
+playwright-report/
+test-results/
+
+# Tooling and docs — not needed inside the image
+.claude/
+.github/
+docs/
+.git/
+
+# Secrets and local config
+.env*
+
+# Logs
+*.log

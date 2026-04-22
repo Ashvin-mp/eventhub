@@ -1,0 +1,8 @@
+services:
+  playwright:
+    build: .
+    volumes:
+      # HTML report and screenshots land on the host after the container exits.
+      # Open playwright-report/index.html in a browser to view results.
+      - ./playwright-report:/app/playwright-report
+      - ./test-results:/app/test-results
