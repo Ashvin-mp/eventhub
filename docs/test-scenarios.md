@@ -98,6 +98,7 @@ Scope: Booking Management (Flow 4 — View, Cancel, Clear, Refund Eligibility)
 **Expected Results**: 200 response with full booking data including nested event
 **Business Rule**: `GET /api/bookings/ref/:ref` endpoint
 **Suggested Layer**: API
+//comment
 
 ---
 
