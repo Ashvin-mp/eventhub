@@ -1,5 +1,5 @@
 services:
-  playwright:
+  tests:
     build: .
     volumes:
       # HTML report and screenshots land on the host after the container exits.
